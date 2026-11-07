@@ -1,0 +1,8 @@
+.letter-section{min-height:100vh;background:linear-gradient(180deg,#080609,#171017,#080609);padding-bottom:150px}
+.letter-header{min-height:75vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:120px 25px 50px}
+.letter-header h2{font-size:clamp(65px,10vw,120px);font-weight:400;line-height:.9;margin-top:35px}.letter-header h2 span{display:block;color:#d9a85d;font-style:italic}
+.love-letter{width:min(800px,calc(100% - 40px));margin:auto;padding:60px 0}
+.love-letter p{color:#c2b6bc;font-size:18px;line-height:2;margin-bottom:45px}.love-letter .highlight{color:#e2bd79;font-size:28px;font-style:italic}
+.love-letter .big-highlight{color:#e5bd74;font-size:clamp(32px,5vw,55px);line-height:1.2;font-style:italic;text-align:center}
+.love-letter .date{text-align:center;color:#d9a85d;font-size:18px;letter-spacing:4px}.signature{text-align:right;color:#d9a85d;font-size:22px;font-style:italic;margin:80px 0}
+@media(max-width:600px){.love-letter p{font-size:16px}}

@@ -1,0 +1,22 @@
+.story-section{background:linear-gradient(180deg,#080609,#120c11 45%,#080609)}
+.story-hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:100px 25px}
+.story-hero h2{max-width:850px;font-size:clamp(50px,8vw,100px);font-weight:400;line-height:1;margin:35px 0}
+.story-hero h2 span,.story-text h2 span,.simple-memory h2 span,.future-memory h3{color:#d9a85d;font-style:italic}
+.story-hero p:last-child{max-width:600px;color:#bcb0b6;line-height:1.9}
+.story-block{max-width:1100px;min-height:700px;margin:auto;padding:100px 35px;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+.story-block.reverse{direction:rtl}.story-block.reverse>*{direction:ltr}
+.story-text h2{font-size:clamp(45px,6vw,75px);font-weight:400;line-height:1;margin:30px 0}
+.story-text p:last-child{color:#b8adb2;line-height:1.9;font-size:17px}
+.photo-frame{border:1px solid rgba(217,168,93,.35);padding:10px;transform:rotate(-2deg);background:#100c10}
+.reverse .photo-frame{transform:rotate(2deg)}
+.photo-frame img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover}
+.simple-memory,.future-memory{max-width:850px;min-height:600px;margin:auto;padding:120px 30px;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.simple-memory h2,.future-memory h2{font-size:clamp(45px,7vw,80px);font-weight:400;line-height:1.1;margin:35px 0}
+.simple-memory p:last-child,.future-memory p{color:#b8adb2;line-height:1.8}
+.future-memory h3{font-size:clamp(25px,4vw,45px);font-weight:400;margin-top:30px}
+.proposal{min-height:750px;max-width:800px;margin:auto;padding:120px 30px;text-align:center}
+.proposal h2{font-size:clamp(80px,14vw,150px);font-weight:400;margin:35px 0}
+.proposal p{color:#bcb0b6;line-height:1.9}.proposal h3{color:#e2b66b;font-size:clamp(35px,6vw,65px);font-weight:400;margin:40px 0;font-style:italic}
+.proposal-line{width:100px;height:1px;background:#d9a85d;margin:35px auto}
+.reveal{opacity:0;transform:translateY(35px);transition:opacity 1s ease,transform 1s ease}.reveal.visible{opacity:1;transform:translateY(0)}
+@media(max-width:750px){.story-block{grid-template-columns:1fr;gap:50px;padding:80px 25px}.story-block.reverse{direction:ltr}}
